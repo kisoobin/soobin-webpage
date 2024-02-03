@@ -1,0 +1,57 @@
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #eeeeee;
+}
+
+.upper-menu{
+    display: flex;
+    height: 10%;
+    justify-content: left;
+    align-items: center;
+}
+
+.upper-menu > a {
+    margin-left: 60px;
+    text-decoration-line: none;
+    color: black;
+}
+
+
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 95%;
+}
+
+.main-container > p{
+    text-align: center;
+}
+.introduce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+#main-pic{
+    width: 40vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.introduce-myself{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
